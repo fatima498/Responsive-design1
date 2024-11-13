@@ -1,0 +1,286 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+
+.main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 64px 53px;
+ gap: 50px;
+ 
+}
+
+.left-div{
+  /* background-color: #bd1a1a; */
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  
+  
+ 
+}
+.left-div h1{
+  margin: 15px;
+  font-size: 45px;
+  font-weight: 500;
+}
+.left-div .inner{
+  height: 60%;
+  width: 100%;
+  /* background-color: #0ddb40; */
+  margin-top: 150px;
+
+
+}
+
+.left-div .inner .colors{
+  /* background-color: #870ba7; */
+  height: 50px;
+  width: 140px;
+  border-radius: 30px;
+  padding: 2px;
+  display: flex;
+  align-items:center ;
+  justify-content: space-around;
+  gap: 1px;
+  margin: 23px 10px;
+  border: 2px solid;
+
+}
+
+.colors .clr1{
+  background-color: #87ca09;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  margin-top: 1px;
+}
+.colors .clr2{
+  background-color: #87ca09;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  margin-top: 1px;
+
+}
+.colors h5{
+  font-size: 15px;
+  margin-top: 1px;
+  margin-left: 4px;
+
+}
+
+.inner .para{
+  /* margin:  10px; */
+  padding: 4px;
+padding-left: 15px;
+ 
+}
+
+
+
+.right-div{
+  /* background-color: #1a9cbd; */
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  
+}
+.right-div .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.right-div .top .rating{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.right-div .imge{
+  height: 80%;
+  width: 284px;
+  /* background-color: pink; */
+  
+ 
+
+}
+
+ .right-div .imge img{
+
+  background-position: center;
+  object-fit: cover;
+
+
+} 
+.right-div .circle{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  right: 1%;
+  bottom: 44%;
+}
+.right-div .circle h6{
+ color: white;
+ padding-top: 40px;
+ text-align: center;
+ 
+}
+
+
+
+
+/* Responsive  */
+
+
+
+@media (max-width: 609px) {
+  
+
+
+  .main{
+    height: 150%;
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+    flex-direction: column;
+    gap: 49px;
+    
+   
+   
+  }
+
+
+  
+  .left-div h1{
+    margin: 4px;
+    font-size: 10vw;
+    font-weight: 500;
+  }
+  .left-div .inner{
+    height: 60%;
+    width: 100%;
+    /* background-color: #0dabdb; */
+    margin-top: 40px;
+  
+  
+  }
+  
+  .left-div .inner .colors{
+    /* background-color: #870ba7; */
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    padding: 1px;
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    gap: 1px;
+    margin: 10px 3px;
+    border: 2px solid;
+  
+  }
+  
+  .colors .clr1{
+    background-color: #87ca09;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    margin-top: 1px;
+  }
+  .colors .clr2{
+    background-color: #87ca09;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    margin-top: 1px;
+  
+  }
+  .colors h5{
+    font-size: 15px;
+    margin-top: 1px;
+    margin-left: 4px;
+  
+  }
+  
+  .inner .para{
+    padding-left: 8px;
+  font-size: 14px;
+   
+  }
+  
+  
+  
+  .right-div{
+    /* background-color: #1a9cbd; */
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    
+  }
+  .right-div .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    font-size: 13px;
+  }
+  
+  .right-div .top .rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+  }
+  
+  .right-div .imge{
+    height: 50%;
+    width: 300px;
+    /* background-color: pink; */
+    
+   
+  
+  }
+  
+   .right-div .imge img{
+  
+    background-position: center;
+    object-fit: cover;
+  
+  
+  } 
+  .right-div .circle{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 20%;
+    top: 105%;
+ 
+  }
+  .right-div .circle h6{
+   color: white;
+   padding-top: 30px;
+   text-align: center;
+   
+  }
+  
+}
